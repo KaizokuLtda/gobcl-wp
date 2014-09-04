@@ -98,6 +98,14 @@ add_theme_support( 'custom-header', $header_args );
  * Fuente: https://github.com/WebDevStudios/Custom-Metaboxes-and-Fields-for-WordPress/wiki/Using-CMB-to-create-an-Admin-Theme-Options-Page
  * @version 0.1.0
  */
+
+function update_cmb_meta_box_url( $url ) {
+    // Actualizamos url de metabox
+
+    return get_template_directory_uri().'/lib/metabox/';
+
+}
+
 class gobcl_Admin {
 
     /**
