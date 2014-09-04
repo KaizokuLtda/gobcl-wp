@@ -25,6 +25,8 @@ Una vez instalado, debe ser activado en el administrador a través del menú `Ap
 
 ## Configuración
 
+Para su uso correcto, el tema debe contar con al menos dos categorías: **Noticias** `noticias` y **Foto Destacada** `foto-descatacada`
+
 ### Apariencia General
 
 La sección `Apariencia > Personalizar` permite editar:
