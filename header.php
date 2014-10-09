@@ -21,7 +21,7 @@
 
             } elseif (is_search()) {
 
-                echo 'Resultados de búsqueda para &quot;'.wp_specialchars($s).'&quot; - ';
+                echo 'Resultados de búsqueda para &quot;'.esc_html($s).'&quot; - ';
 
             } elseif (!(is_404()) && (is_single()) || (is_page())) {
 
