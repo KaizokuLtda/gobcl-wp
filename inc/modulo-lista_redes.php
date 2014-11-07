@@ -42,7 +42,7 @@
                     // Checkeamos si la red está activa
                     if ($red['_gobcl_activa_red']): ?>
 
-                    <li id="<?php echo $red['_gobcl_redes'] ?>">
+                    <li class="<?php echo $red['_gobcl_redes'] ?>">
                         <a class="clearfix" href="<?php echo $red['url_red'] ?>">
                             <span class="icono"></span>
                             <div class="texto">
