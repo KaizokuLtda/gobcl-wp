@@ -6,6 +6,9 @@
     		get_template_part('inc/modulo', 'lista_redes');
     	}
 
+    	// Mostramos módulo Ministerios
+        get_template_part('inc/modulo', 'ministerios');
+
         // Mostramos el último post de la categoría "Foto Destacada"
         get_template_part('inc/modulo', 'foto_destacada');
 
