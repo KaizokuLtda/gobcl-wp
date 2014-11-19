@@ -1,8 +1,10 @@
 <div id="sidebar">
 
     <?php
-        // Mostramos Lista Redes Sociales (Opciones del Tema - Lista Redes Sociales)
-        get_template_part('inc/modulo', 'lista_redes');
+    	if (gobcl_get_option('_gobcl_lista_redes')) {
+    		// Mostramos Lista Redes Sociales (Opciones del Tema - Lista Redes Sociales)
+    		get_template_part('inc/modulo', 'lista_redes');
+    	}
 
         // Mostramos el último post de la categoría "Foto Destacada"
         get_template_part('inc/modulo', 'foto_destacada');
