@@ -165,6 +165,11 @@
 				}
 			?>
 
+			<?php 
+				// Módulo Enlaces productos prefooter
+				get_template_part('inc/modulo', 'productos_pre_footer');
+			 ?>
+
 		</div>
 	</div>
 
