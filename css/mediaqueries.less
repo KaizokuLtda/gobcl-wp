@@ -22,7 +22,7 @@
 		}
 	}
 
-	#tweet-destacado {
+	#cita-destacada {
 		.left {
 			width:100%;
 		}
@@ -98,17 +98,24 @@
 		.imagen {
 			img {
 				margin-left:-50%;
+				max-width:none;
+				height:100%;
 			}
 		}
 		.texto {
 			background:rgba(0, 0, 0, 0.5);
 			padding:50px 10px 10px 10px;
+			top:0; bottom:0; left:0; right:0;
 		}
 	}
 
 	// Módulos HTML
 	.banners-mosaico {
 		width:@wrap;
+		.banner {
+			width:100%;
+			margin:0 0 20px;
+		}
 	}
 	.redes-mosaico {
 		ul {
@@ -264,7 +271,14 @@
 			.listas {
 				.lista {
 					border-right:none;
+					display:block;
 				}
+			}
+		}
+		.bottom {
+			nav {
+				float:left;
+				margin-top:15px;
 			}
 		}
 	}
