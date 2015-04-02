@@ -99,7 +99,7 @@
             <nav id="menu-principal">
             <!-- Menu Principal -->
                 <?php $args = array(
-                    'menu' => 'Menu Principal',
+                    'theme_location' => 'menu_principal',
                     'container' => '',
                     'menu_class' => 'menu',
                     'menu_id' => '',
