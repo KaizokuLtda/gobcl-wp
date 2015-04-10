@@ -393,7 +393,7 @@ class gobcl_Admin {
             array(
                 'id'          => $prefix . 'banners_pre_footer',
                 'type'        => 'group',
-                'name'        => 'Home: Banners Sidebar',
+                'name'        => 'Home: Banners pre-footer',
                 'description' => __( 'Banners pre-footer, 320x100 px.', 'gobcl' ),
                 'options'     => array(
                     'group_title'   => __( 'Banner {#}', 'gobcl' ),
