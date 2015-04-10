@@ -63,7 +63,7 @@
 					<?php if (has_nav_menu('menu_footer_3')): ?>
 
 						<div class="lista">
-							<h5><?php echo get_menu_title('menu_footer_2') ?></h5>
+							<h5><?php echo get_menu_title('menu_footer_3') ?></h5>
 							<?php $args = array(
 			                    'theme_location' => 'menu_footer_3',
 			                    'container' => '',
