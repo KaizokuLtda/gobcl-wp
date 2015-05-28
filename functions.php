@@ -20,6 +20,23 @@ register_nav_menus( array(
     'menu_inferior'  => 'Menu Inferior'
 ) );
 
+/*  Widgets
+/*  ----- */
+
+function gobcl_widgets_init() {
+
+    register_sidebar( array(
+        'name'          => 'Sidebar principal',
+        'id'            => 'sidebar_principal',
+        'before_widget' => '<div class="widget">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h5 class="titulo-seccion">',
+        'after_title'   => '</h5><div class="clearfix"></div>',
+    ) );
+
+}
+add_action( 'widgets_init', 'gobcl_widgets_init' );
+
 // Función para traer título del menú
 
 function get_menu_title( $theme_location, $default_name = 'menu' ) {

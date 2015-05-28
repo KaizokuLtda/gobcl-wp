@@ -777,6 +777,9 @@ a#menu-movil-cerrar {
   color: #e6e6e6;
   background: #7a8791;
 }
+.widgets-sidebar .widget {
+  margin-bottom: 25px;
+}
 .widget-ministerios {
   width: 320px;
   float: left;
@@ -1251,6 +1254,7 @@ footer .bottom .bicolor {
 .page #content #main .post .pic img,
 .error404 #content #main .post .pic img {
   float: left;
+  width: 100%;
 }
 .single #content #main .post .social,
 .page #content #main .post .social,

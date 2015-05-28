@@ -12,6 +12,13 @@
         // Mostramos el último post de la categoría "Foto Destacada"
         get_template_part('inc/modulo', 'foto_destacada');
 
+        // Checkeamos que Sidebar Principal esté activo en Widgets
+        if (is_active_sidebar('sidebar_principal')) {
+            get_template_part('inc/modulo', 'widgets_sidebar');
+        }
+
+        
+
         // Mostramos Banners Sidebar (Opciones del Tema - Banners Sidebar)
         get_template_part('inc/modulo', 'banners_sidebar');
     ?>
