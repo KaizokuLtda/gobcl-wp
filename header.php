@@ -92,7 +92,7 @@
         <div class="wrap">
 
         	<h1 id="logo-main">
-                <a href="/">
+                <a href="<?php bloginfo('url'); ?>/">
                     <img src="<?php echo (get_theme_mod( 'gobcl_logo' )) ? get_theme_mod( 'gobcl_logo' ) : 'http://placehold.it/180/0168b3&text=Isologo+(180x180)' ?>">
                 </a>
             </h1>
